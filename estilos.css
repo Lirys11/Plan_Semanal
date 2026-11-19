@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #000;
+}
+
+main {
+  max-width: 1000px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 0 1rem;
+}
+
+
+.contenedor {
+  background: #eaeedd;
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 800px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 0.75rem;
+}
+
+th,
+td {
+  border: 1px solid #666;
+  padding: 0.25rem 0.35rem;
+  vertical-align: middle;
+}
+
+td {
+  height: 1.7rem;
+}
+
+.seccion {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.seccion em {
+  font-weight: normal;
+  font-size: 0.65rem;
+}
+
+
+.azul {
+  background: #3ba7c9;
+}
+
+.naranja {
+  background: #ffc000;
+}
+
+.amarillo {
+  background: #fff2a8;
+}
+
+.etiqueta {
+  text-align: left;
+  font-size: 0.7rem;
+}
+
+.marca {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.zona {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.interactua { background: #ff3fb4; }
+.investiga  { background: #b8a2d8; }
+.desarrolla { background: #ff0000; }
+.crea       { background: #92d050; }
+.explora    { background: #ffff00; }
+.presenta   { background: #ff8c1a; }
+
+tr.alta td {
+  height: 2.6rem;
+}
+
+
+.cabecera-actividades th {
+  text-align: center;
+  font-size: 0.7rem;
+}
